@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Login form </title>
+    <link rel="stylesheet" href="./loginpage.css">
+    <script src="./loginpage.js"></script>
+</head>
+<body>
+    <div class="main">
+        <div class="Login">
+            <h2>Login Here</h2>
+            <form id="Login" method="post" onsubmit="return validate()">
+                <label>Username</label>
+                <br>
+                <input type="text" name="fname" id="name"placeholder="Enter the Username" required>
+                <br><br>
+                <label>Password</label>
+                <br>
+                <input type="password" name="fname" id="password"placeholder="Password" required>
+                <br><br>
+                <div class="buttons">
+                    <button onclick="validate()" class="submit" type="submit">Login</button>
+                </div>                
+            </form>
+        </div><!--end Login-->
+    </div><!--end main-->
+</body>
+</html>

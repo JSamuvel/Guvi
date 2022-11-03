@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-size: 280% ;
+    background-position: 400px 0px;
+    background-color: rgb(7, 181, 187);
+    background-color: rgb(0, 204, 255);
+}
+
+div.main {
+    width: 400px;
+    margin: 100px auto 0px auto;
+}
+
+h2 {
+    text-align: center;
+    padding: 20px;
+    font-family: sans-serif;
+}
+
+div.Login {
+    background-color: rgba(0,0,0,0.5);
+    width: 110%;
+    font-size: 18px;
+    border-radius: 10px;
+    text-align: center;
+    border: 1px soid rgba(255,255,255,0.3);
+    box-shadow: 2px 2px 15px rgba(0,0,0,0.3);
+    color:white;
+}
+
+form#Login {
+    margin: 30px;
+    padding: 40px;
+    text-align: left;
+}
+
+label {
+    font-family: sans-serif;
+    font-size: 18px;  
+    font-style: normal;
+}
+
+input#name {
+    width: 250px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    outline: 0;
+    padding: 7px;
+    background-color: #fff;
+    box-shadow: inset 1px 1px 5px rgba(0,0,0,0.3);
+}
+
+input#password {
+    width: 250px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    outline: 0;
+    padding: 7px;
+    background-color: #fff;
+    box-shadow: inset 1px 1px 5px rgba(0,0,0,0.3);
+}
+
+label,span,h2 {
+    text-shadow: 1px 1px 5px rgba(0,0,0,0.3);
+}
+
+.submit {
+    width: 40%;
+    text-align: center;
+    padding: 5px;
+}  
+
+.submit:hover {
+    background-color:black ;
+    color: white;
+}
+
+.buttons {
+    text-align: center;
+}
